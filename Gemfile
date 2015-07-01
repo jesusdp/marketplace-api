@@ -37,6 +37,12 @@ gem 'active_model_serializers'
 # Authentication module
 gem 'devise', '~> 3.4.0'
 
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
